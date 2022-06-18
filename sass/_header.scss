@@ -1,0 +1,24 @@
+.header{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+        &__img{
+            height: 65%;
+            padding-top: 10px;
+        }
+
+        &__return{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 30px;
+            height: 70%;
+            text-align: center;
+            padding-top: 15px;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+        }
+}

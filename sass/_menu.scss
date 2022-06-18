@@ -1,0 +1,108 @@
+
+.top{
+    height: 250px;
+    width: 100%;
+
+    @media( min-width: 768px){ 
+        height: 400px;
+        
+    }
+
+    &__img{
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+    }
+
+    &__block{
+        display: flex;
+        background-color: white;
+        border-radius: 40px 40px 0px 0px;
+        width: 100%;
+        position: absolute;
+        top: 210px;
+
+            &__title{
+                flex-grow: 1;
+                padding: 20px 0px;
+                margin: 0px 15px;
+
+            }
+
+            &__icon{
+                width: 50px;
+                font-size: 20px;
+                padding: 25px 0px;
+                margin: 0px 15px;
+            }    
+    }
+    
+}
+
+.menu{
+    margin: 0px 15px;
+    display: flex;
+    flex-direction: column;
+
+        &__title{
+
+        }
+
+        &__border{
+            width: 35px;
+            border: 1px solid #99E2D0;
+            margin-left: 0px;
+        }
+
+        &__article{
+            box-shadow: 1px 1px 1px 1px;
+            background-color: white;
+            border-radius: 10px;
+            width: 100%;
+            height: 75px;
+            margin: 10px 0px;
+            display: flex;
+            flex-direction: row;
+
+
+            &__col1{
+                flex-grow: 1;
+                padding: 15px 0px;
+                margin-left: 10px;
+            }
+            &__col2{
+                width: 50px;
+                text-align: center;
+                font-weight: bold;
+                padding: 38px 0px;
+                margin-right: 10px;
+            }
+            &__col3{
+                width: 50px;
+                border-radius: 0px 10px 10px 0px;
+                padding: 15px 0px;
+                background-color: #99E2D0;
+                text-align: center;
+                
+
+                &__check{
+                    font-size: 20px;
+                    color: white;
+                    padding-top: 15px;
+                }
+            }
+        }
+}
+
+.menu2{
+    margin-top: 25px;
+}
+
+.order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+}
